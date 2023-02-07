@@ -8,9 +8,8 @@ blueprint:
       description: Select a Sengled E1E-G7F
       selector:
         device:
-          integration: zigbee2mqtt
           manufacturer: Sengled
-          model: E1E-G7F
+          model: "Smart switch (E1E-G7F)"
     light:
       name: Light(s)
       description: The light(s) to control
