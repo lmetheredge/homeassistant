@@ -9,10 +9,8 @@ blueprint:
       selector:
         device:
           integration: zigbee2mqtt
-          manufacturer: sengled
-          entity:
-            domain: sensor
-            device_class: battery
+          manufacturer: Sengled
+          model: E1E-G7F
     light:
       name: Light(s)
       description: The light(s) to control
