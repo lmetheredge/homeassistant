@@ -13,7 +13,6 @@ blueprint:
           entity:
             domain: sensor
             device_class: battery
-
     light:
       name: Light(s)
       description: The light(s) to control
@@ -41,7 +40,7 @@ blueprint:
           mode: slider
           step: 1.0
           unit_of_measurement: "%"
-  source_url: 
+  source_url: https://github.com/lmetheredge/homeassistant/blob/main/blueprints/sengled.yaml
 mode: restart
 max_exceeded: silent
 variables:
