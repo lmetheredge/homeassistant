@@ -6,10 +6,6 @@ blueprint:
     remote:
       name: Sengled Smart Light Switch
       description: Select a Sengled E1E-G7F
-      selector:
-        device:
-          manufacturer: Sengled
-          model: "Smart switch (E1E-G7F)"
     light:
       name: Light(s)
       description: The light(s) to control
